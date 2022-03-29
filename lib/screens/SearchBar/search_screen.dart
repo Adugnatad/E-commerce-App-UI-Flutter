@@ -31,7 +31,7 @@ class searchScreen extends StatelessWidget {
                     SearchController.clear();
                   },
                 ),
-                hintText: 'Search Product...',
+                hintText: 'Search...',
                 border: InputBorder.none),
           ),
         ),
