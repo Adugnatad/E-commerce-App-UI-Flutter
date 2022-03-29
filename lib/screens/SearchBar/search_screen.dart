@@ -13,7 +13,6 @@ class searchScreen extends StatelessWidget {
         leading: IconButton(
             icon: SvgPicture.asset(
               "assets/icons/back.svg",
-              // By default our  icon color is white
               color: kTextColor,
             ),
             onPressed: () => Navigator.pop(context)),
@@ -32,7 +31,7 @@ class searchScreen extends StatelessWidget {
                     SearchController.clear();
                   },
                 ),
-                hintText: 'Search...',
+                hintText: 'Search Product...',
                 border: InputBorder.none),
           ),
         ),
